@@ -4,7 +4,7 @@ import time
 import random
 #---CONFIG---
 
-token = "NzcxMTMxNTQ3NjAwNDIwODg0.X6lwIw.wB6nR_LCst43UQxrAAT0-8dbtFE" # https://www.youtube.com/watch?v=tI1lzqzLQCs
+token = "NzcxMTMxNTQ3NjAwNDIwODg0.X6mlyA.-l-iHPvfMJMKJfnnDflcOHMuz38" # https://www.youtube.com/watch?v=tI1lzqzLQCs
 prefix = "!" # This defines the selfbot prefix. You can customize it however you like, but you should probably keep it tiny.
 
 #--- BOT ---
