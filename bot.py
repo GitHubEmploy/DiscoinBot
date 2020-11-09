@@ -1,6 +1,7 @@
 import discord
 from discord.ext import commands
 import time
+import random
 #---CONFIG---
 
 token = "NTM1OTcyNzA0NDAzMTkzODg4.X6jIMw.XDvpXQ9XY7va7Lq-QjhBe3P_nxk" # https://www.youtube.com/watch?v=tI1lzqzLQCs
@@ -21,8 +22,8 @@ async def on_message(message):
         while True:
             count = count + 1
             await message.channel.send('pls beg')
-            time.sleep(26)
-            if count == 139:
+            time.sleep(int(random.randrange(0, 150, 1)))
+            if count == int(random.randrange(0, 97, 1)):
                 await message.channel.send('pls hourly')
 @client.event
 async def on_ready():
